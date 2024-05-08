@@ -1,0 +1,12 @@
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+
+// base
+@import "./base/body";
+@import "./base/reset";
+@import "./base/favicon";
+@import "./base/typography";
+
+// components
+@import "./components/cards";
+@import "./components/navbar";

@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <script
+      defer
+      src="https://kit.fontawesome.com/944b203749.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      defer
+      src="https://code.jquery.com/jquery-3.7.1.js"
+      integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="./assets/js/index.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <nav id="blur" class="navbar navbar-expand-md navbar-dark fixed-top">
+      <div class="container">
+        <img class="favicon" src="./assets/img/viajes.svg" alt="icono del nav" />
+        <a class="navbar-brand" href="#">Viajes Chile</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="#inicio-top" href="#"
+                >Inicio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#quienes-somos">Quienes Somos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#tarjetas">Destacados</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimony">Testimonios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Carousel  -->
+    <header id="inicio-top">
+      <div
+        id="carouselExampleFade"
+        class="carousel slide carousel-fade mb-5"
+        data-bs-ride="carousel"
+        style="height: 70vh"
+      >
+        <div class="carousel-inner h-100">
+          <div class="carousel-item active h-100" data-bs-interval="10000">
+            <img
+              src="./assets/img/carousel1.jpg"
+              class="d-block w-100 h-100 object-fit-cover"
+              alt="Fotografía de unas Alpacas"
+            />
+          </div>
+          <div class="carousel-item h-100" data-bs-interval="2000">
+            <img
+              src="./assets/img/carousel2.jpg"
+              class="d-block w-100 h-100 object-fit-cover"
+              alt="Fotografía de unos Moai"
+            />
+          </div>
+          <div class="carousel-item h-100">
+            <img
+              src="./assets/img/carousel3.jpg"
+              class="d-block w-100 h-100 object-fit-cover"
+              alt="Fotografía de un pinguino"
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleFade"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleFade"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section id="quienes-somos" class="container mb-5">
+        <div class="row">
+          <h2 class="text-center mb-3">¿Quiénes somos?</h2>
+          <hr />
+          <div class="col-lg-6 col-sm-12">
+            <img
+              class="img-fluid pb-3 d-none d-lg-block"
+              src="./assets/img/quienes-somos.jpg"
+              alt="imagen dev"
+            />
+          </div>
+          <aside
+            class="col-lg-6 col-sm-12 d-flex flex-column align-self-center m-0"
+          >
+            <p class="who-section__text-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro,
+              fuga eveniet. Sit enim aspernatur est? Accusantium consectetur
+              deleniti quod, architecto quam temporibus obcaecati quaerat a
+              cumque vero qui provident nulla!
+            </p>
+            <p class="who-section__text-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+              aliquid necessitatibus libero quisquam laboriosam error, dolores
+              excepturi minima placeat ratione asperiores. Repellendus officia
+              itaque non. Nemo nisi libero ad dolorem. Amet exercitationem
+              possimus vitae consequuntur nulla ad reiciendis quia earum
+              praesentium quos eligendi quo pariatur voluptates, incidunt ab
+              mollitia ea accusantium laudantium necessitatibus, sint, hic
+              ducimus. Minima enim numquam assumenda.
+            </p>
+          </aside>
+        </div>
+      </section>
+
+      <section class="container">
+        <div class="row">
+          <h2 id="tarjetas" class="text-center mb-3">Destacados</h2>
+          <hr />
+          <div class="col-lg-6 col-sm-12 card mb-3" style="max-width: 540px">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img
+                  src="./assets/img/card1.jpg"
+                  class="img-fluid rounded-start"
+                  alt="..."
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                  </p>
+                  <hr />
+                  <div class="container bg-body-secondary">
+                    <div class="row">
+                      <i class="fa-solid fa-plane-up col-1"></i>
+                      <p class="col-6">Vuelos desde:</p>
+                      <p class="col-4">$159.990</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-sm-12 card mb-3" style="max-width: 540px">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img
+                  src="./assets/img/card1.jpg"
+                  class="img-fluid rounded-start"
+                  alt="..."
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                  </p>
+                  <hr />
+                  <div class="bg-body-secondary">
+                    <i class="fa-solid fa-plane-up"></i>
+                    <p>Vuelos desde:</p>
+                    <p>$159.990</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-sm-12 card mb-3" style="max-width: 540px">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img
+                  src="./assets/img/card1.jpg"
+                  class="img-fluid rounded-start"
+                  alt="..."
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                  </p>
+                  <hr />
+                  <div class="bg-body-secondary">
+                    <i class="fa-solid fa-plane-up"></i>
+                    <p>Vuelos desde:</p>
+                    <p>$159.990</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-sm-12 card mb-3" style="max-width: 540px">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img
+                  src="./assets/img/card1.jpg"
+                  class="img-fluid rounded-start"
+                  alt="..."
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                  </p>
+                  <hr />
+                  <div class="bg-body-secondary">
+                    <i class="fa-solid fa-plane-up"></i>
+                    <p>Vuelos desde:</p>
+                    <p>$159.990</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="container testimony__section container">
+        <h2 id="testimony">Testimonios</h2>
+        <hr />
+        <div class="row">
+          <div class="col-sm-12 col-lg-4">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum quo
+              perferendis mollitia perspiciatis, aut voluptatibus libero iste
+              ipsam porro dicta doloremque reprehenderit a blanditiis eius.
+              Quisquam cumque totam exercitationem voluptatum.
+            </p>
+            <img class="container" src="./assets/img/testimonio1.jpg" alt="" />
+            <h5>Mariela</h5>
+          </div>
+          <div class="row col-sm-12 col-lg-4">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum quo
+              perferendis mollitia perspiciatis, aut voluptatibus libero iste
+              ipsam porro dicta doloremque reprehenderit a blanditiis eius.
+              Quisquam cumque totam exercitationem voluptatum.
+            </p>
+            <img src="./assets/img/testimonio2.jpg" alt="" />
+            <h5>Christian</h5>
+          </div>
+          <div class="row col-sm-12 col-lg-4">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum quo
+              perferendis mollitia perspiciatis, aut voluptatibus libero iste
+              ipsam porro dicta doloremque reprehenderit a blanditiis eius.
+              Quisquam cumque totam exercitationem voluptatum.
+            </p>
+            <img src="./assets/img/testimonio3.jpg" alt="" />
+            <h5>Fernanda</h5>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- footer - Input -->
+
+    <footer class="container mb-5 footer-section__text-icons">
+      <h2 id="contact" class="text-center fs-1 fw-semibold">
+        Contacto
+        <hr />
+      </h2>
+      <div class="row">
+        <article class="col-12 col-lg-6">
+          <div class="container">
+            <div class="row">
+              <div class="col-6 ">
+                <label for="formGroupExampleInput" class="form-label m-1"
+                  >Nombre</label
+                ><i class="fa-solid fa-circle-info" data-bs-toggle="tooltip"
+                data-bs-placement="top"
+                data-bs-title="Ingresa tu nombre aquí"></i>
+                <input
+                  type="text"
+                  class="form-control mb-3"
+                  aria-label="First name"
+                />
+              </div>
+              <div class="col-6">
+                <label for="formGroupExampleInput" class="form-label m-1"
+                  >Email</label
+                ><i class="fa-solid fa-circle-info" data-bs-toggle="tooltip"
+                data-bs-placement="top"
+                data-bs-title="Ingresa tu Correo electrónico aquí"></i>
+                <input type="text" class="form-control" aria-label="Email" />
+              </div>
+              <div class="col-12 mb-3">
+                <label for="formGroupExampleInput" class="form-label m-1"
+                  >Mensaje</label
+                ><i class="fa-solid fa-circle-info" data-bs-toggle="tooltip"
+                data-bs-placement="top"
+                data-bs-title="Si quieres especificar algo, escribelo aquí"></i>
+                <textarea
+                  class="form-control"
+                  id="exampleFormControlTextarea1"
+                  rows="3"
+                ></textarea>
+              </div>
+            </div>
+            <div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckDefault"
+                  data-bs-toggle="modal"
+                  data-bs-target="#staticBackdrop"
+                />
+                <label
+                  class="form-check-label text-decoration-underline mb-2"
+                  for="flexCheckDefault"
+                >
+                  Acepto los términos y condiciones
+                </label>
+
+                <!-- Modal -->
+                <div
+                  class="modal fade"
+                  id="staticBackdrop"
+                  data-bs-backdrop="static"
+                  data-bs-keyboard="false"
+                  tabindex="-1"
+                  aria-labelledby="staticBackdropLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="staticBackdropLabel">
+                          Terminos y condiciones
+                        </h1>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="modal-body">
+                        "Al acceder y utilizar nuestro servicio, aceptas cumplir
+                        con estos términos y condiciones. Este servicio se
+                        proporciona tal cual y no nos hacemos responsables de
+                        ningún daño directo o indirecto derivado de su uso. Nos
+                        reservamos el derecho de modificar estos términos en
+                        cualquier momento sin previo aviso. Es responsabilidad
+                        del usuario revisar periódicamente los términos y
+                        condiciones. Al continuar utilizando el servicio después
+                        de cualquier modificación, se considerará que has
+                        aceptado los nuevos términos y condiciones."
+                      </div>
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="btn btn-secondary"
+                          data-bs-dismiss="modal"
+                        >
+                          Cerrar
+                        </button>
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">
+                          Aceptar
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="liveAlertPlaceholder"></div>
+              <button
+                type="button"
+                class="btn btn-primary d-grid col-12 col-lg-6 mb-5"
+                id="liveAlertBtn"
+              >
+                Enviar
+              </button>
+            </div>
+          </div>
+        </article>
+        <aside class="col-12 col-lg-6 mt-5">
+          <div class="row d-flex align-items-center">
+            <i class="fa-solid fa-phone col-1"></i>
+            <p class="col-6 p-0 m-1">+56999887766</p>
+          </div>
+          <div class="row d-flex align-items-center">
+            <i class="fa-solid fa-envelope col-1"></i>
+            <p class="col-6 p-0 m-1">contacto@viajeschile.com</p>
+          </div>
+          <div class="row d-flex align-items-center">
+            <i class="fa-brands fa-linkedin col-1"></i>
+            <p class="col-6 p-0 m-1">viajes_chile</p>
+          </div>
+          <div class="row d-flex align-items-center">
+            <i class="fa-brands fa-instagram col-1"></i>
+            <p class="col-6 p-0 m-1">viajes_chile</p>
+          </div>
+        </aside>
+      </div>
+    </footer>
+  </body>
+</html>
