@@ -1,13 +1,7 @@
-
-.testimony__section-container {
+.testimony__statements {
     display: flex;
     flex-direction: column;
     margin-bottom: 3rem;
-}
-
-.testimony__statements {
-    display: flex;
-    flex-direction: row;
 }
 
 .testimony__statements-main {
@@ -16,3 +10,9 @@
     justify-content: center;
     align-items: center;
 }
+
+@media (min-width: 576px) {
+    .testimony__statements {     // clase de ejemplo
+         flex-direction: row;
+  }
+  }

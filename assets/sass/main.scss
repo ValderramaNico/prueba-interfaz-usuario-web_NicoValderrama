@@ -2,15 +2,15 @@
 
 
 // base
-@import "./base/./body.scss";
-@import "./base/./reset.scss";
-@import "./base/./favicon.scss";
-@import "./base/./typography.scss";
+@import "./base/body";
+@import "./base//reset";
+@import "./base/favicon";
+@import "./base//typography";
 
 // layout
-@import "./layout/./testimony.scss";
+@import "./layout/testimony";
+@import "./components/carousel";
 
 // components
-@import "./components/./cards.scss";
-@import "./components/./images.scss";
-@import "./components/./navbar.scss";
+@import "./components/images";
+@import "./components/navbar";
