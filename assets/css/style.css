@@ -11867,8 +11867,22 @@ html {
   color: white;
 }
 
-.testimony__section {
+.testimony__section-container {
+  text-align: center;
   color: white;
+}
+
+.testimony__statements-description {
+  text-align: center;
+  font-style: italic;
+  font-size: 12px;
+  margin: 1.9rem;
+  text-wrap: balance;
+}
+
+.testimony__statements-sub-title {
+  text-align: center;
+  margin-top: 1rem;
 }
 
 .footer-section__text-icons {
@@ -11879,6 +11893,24 @@ html {
   color: black;
 }
 
+.testimony__section-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3rem;
+}
+
+.testimony__statements {
+  display: flex;
+  flex-direction: row;
+}
+
+.testimony__statements-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 #featured-cards .card-full {
   width: 100%;
   transition: all 300ms;
@@ -11887,6 +11919,15 @@ html {
 
 #featured-cards .card-full:hover {
   transform: scale(1.15);
+}
+
+.testimony__statements--thumbnail-img {
+  display: flex;
+  height: 40px;
+  width: 40px;
+  border: 1px solid white;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 #blur {

@@ -25,9 +25,14 @@
     <title>Document</title>
   </head>
   <body>
+    <!-- nav-bar -->
     <nav id="blur" class="navbar navbar-expand-md navbar-dark fixed-top">
       <div class="container">
-        <img class="favicon" src="./assets/img/viajes.svg" alt="icono del nav" />
+        <img
+          class="favicon"
+          src="./assets/img/viajes.svg"
+          alt="icono del nav"
+        />
         <a class="navbar-brand" href="#">Viajes Chile</a>
         <button
           class="navbar-toggler"
@@ -114,12 +119,12 @@
         </button>
       </div>
     </header>
-
     <main>
+      <!-- section - quienes somos -->
       <section id="quienes-somos" class="container mb-5">
         <div class="row">
-          <h2 class="text-center mb-3">¿Quiénes somos?</h2>
-          <hr />
+          <h2 class="text-center mb-3 text-light">¿Quiénes somos?</h2>
+          <hr class="text-light" />
           <div class="col-lg-6 col-sm-12">
             <img
               class="img-fluid pb-3 d-none d-lg-block"
@@ -149,41 +154,147 @@
           </aside>
         </div>
       </section>
-
-      <section class="container">
-        <div class="row">
-          <h2 id="tarjetas" class="text-center mb-3">Destacados</h2>
-          <hr />
-          <div class="col-lg-6 col-sm-12 card mb-3" style="max-width: 540px">
-            <div class="row g-0">
-              <div class="col-md-4">
+      <!-- section - destacados -->
+      <section class="container mb-5">
+        <div class="row row-gap-1 gap-3">
+          <h2 id="featured-cards" class="text-center mb-3 text-light">
+            Destacados
+          </h2>
+          <hr class="text-light" />
+          <!-- card-1 -->
+          <div
+            class="col-lg-6 col-sm-12 card mb-3 card-full p-0"
+            style="max-width: 470px"
+          >
+            <div class="row p-0 g-0">
+              <div class="col-md-4 h-80 me-3">
                 <img
                   src="./assets/img/card1.jpg"
-                  class="img-fluid rounded-start"
+                  class="img-fluid h-100 rounded-start object-fit-cover"
                   alt="..."
                 />
               </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+              <div class="col-md-7">
+                <div class="card-body p-2">
+                  <h5 class="card-title">Región de los lagos</h5>
                   <p class="card-text">
                     This is a wider card with supporting text below as a natural
                     lead-in to additional content. This content is a little bit
                     longer.
                   </p>
                   <hr />
-                  <div class="container bg-body-secondary">
-                    <div class="row">
+                  <div class="container bg-body-secondary mb-2">
+                    <div class="row d-flex align-items-center">
                       <i class="fa-solid fa-plane-up col-1"></i>
-                      <p class="col-6">Vuelos desde:</p>
-                      <p class="col-4">$159.990</p>
+                      <p class="col-6 m-1">Vuelos desde:</p>
+                      <p class="col-4 m-1 p-0">$159.990</p>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-lg-6 col-sm-12 card mb-3" style="max-width: 540px">
+          <!-- card-2 -->
+          <div
+            class="col-lg-6 col-sm-12 card mb-3 card-full p-0"
+            style="max-width: 470px"
+          >
+            <div class="row p-0 g-0">
+              <div class="col-md-4 h-80 me-3">
+                <img
+                  src="./assets/img/card2.jpg"
+                  class="img-fluid h-100 rounded-start object-fit-cover"
+                  alt="..."
+                />
+              </div>
+              <div class="col-md-7">
+                <div class="card-body p-2">
+                  <h5 class="card-title">Desierto de Atacama</h5>
+                  <p class="card-text">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                  </p>
+                  <hr />
+                  <div class="container bg-body-secondary mb-2">
+                    <div class="row d-flex align-items-center">
+                      <i class="fa-solid fa-plane-up col-1"></i>
+                      <p class="col-6 m-1">Vuelos desde:</p>
+                      <p class="col-4 m-1 p-0">$189.990</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- card-3 -->
+          <div
+            class="col-lg-6 col-sm-12 card mb-3 card-full p-0"
+            style="max-width: 470px"
+          >
+            <div class="row p-0 g-0">
+              <div class="col-md-4 h-80 me-3">
+                <img
+                  src="./assets/img/card3.jpg"
+                  class="img-fluid h-100 rounded-start object-fit-cover"
+                  alt="..."
+                />
+              </div>
+              <div class="col-md-7">
+                <div class="card-body p-2">
+                  <h5 class="card-title">Norte grande de Chile</h5>
+                  <p class="card-text">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                  </p>
+                  <hr />
+                  <div class="container bg-body-secondary mb-2">
+                    <div class="row d-flex align-items-center">
+                      <i class="fa-solid fa-plane-up col-1"></i>
+                      <p class="col-6 m-1">Vuelos desde:</p>
+                      <p class="col-4 m-1 p-0">$289.990</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- card-4 -->
+          <div
+            class="col-lg-6 col-sm-12 card mb-3 card-full p-0"
+            style="max-width: 470px"
+          >
+            <div class="row p-0 g-0">
+              <div class="col-md-4 h-80 me-3">
+                <img
+                  src="./assets/img/card4.jpg"
+                  class="img-fluid h-100 rounded-start object-fit-cover"
+                  alt="..."
+                />
+              </div>
+              <div class="col-md-7">
+                <div class="card-body p-2">
+                  <h5 class="card-title">Bosque mágico</h5>
+                  <p class="card-text">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                  </p>
+                  <hr />
+                  <div class="container bg-body-secondary mb-2">
+                    <div class="row d-flex align-items-center">
+                      <i class="fa-solid fa-plane-up col-1"></i>
+                      <p class="col-6 m-1">Vuelos desde:</p>
+                      <p class="col-4 m-1 p-0">$259.990</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- <div class="col-lg-6 col-sm-12 card mb-3" style="max-width: 540px">
             <div class="row g-0">
               <div class="col-md-4">
                 <img
@@ -263,50 +374,48 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
       </section>
-
-      <section class="container testimony__section container">
+      <!-- section - testimonios -->
+      <section class="testimony__section-container">
         <h2 id="testimony">Testimonios</h2>
         <hr />
-        <div class="row">
-          <div class="col-sm-12 col-lg-4">
-            <p>
+        <div class="testimony__statements">
+          <div class="testimony__statements-main">
+            <p class="testimony__statements-description">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum quo
               perferendis mollitia perspiciatis, aut voluptatibus libero iste
               ipsam porro dicta doloremque reprehenderit a blanditiis eius.
               Quisquam cumque totam exercitationem voluptatum.
             </p>
-            <img class="container" src="./assets/img/testimonio1.jpg" alt="" />
-            <h5>Mariela</h5>
+            <img class="testimony__statements--thumbnail-img" src="./assets/img/testimonio1.jpg" alt="" />
+            <h5 class="testimony__statements-sub-title">Mariela</h5>
           </div>
-          <div class="row col-sm-12 col-lg-4">
-            <p>
+          <div class="testimony__statements-main">
+            <p class="testimony__statements-description">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum quo
               perferendis mollitia perspiciatis, aut voluptatibus libero iste
               ipsam porro dicta doloremque reprehenderit a blanditiis eius.
               Quisquam cumque totam exercitationem voluptatum.
             </p>
-            <img src="./assets/img/testimonio2.jpg" alt="" />
-            <h5>Christian</h5>
+            <img class="testimony__statements--thumbnail-img" src="./assets/img/testimonio2.jpg" alt="" />
+            <h5 class="testimony__statements-sub-title">Christian</h5>
           </div>
-          <div class="row col-sm-12 col-lg-4">
-            <p>
+          <div class="testimony__statements-main">
+            <p class="testimony__statements-description">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum quo
               perferendis mollitia perspiciatis, aut voluptatibus libero iste
               ipsam porro dicta doloremque reprehenderit a blanditiis eius.
               Quisquam cumque totam exercitationem voluptatum.
             </p>
-            <img src="./assets/img/testimonio3.jpg" alt="" />
-            <h5>Fernanda</h5>
+            <img class="testimony__statements--thumbnail-img" src="./assets/img/testimonio3.jpg" alt="" />
+            <h5 class="testimony__statements-sub-title">Fernanda</h5>
           </div>
         </div>
       </section>
     </main>
-
     <!-- footer - Input -->
-
     <footer class="container mb-5 footer-section__text-icons">
       <h2 id="contact" class="text-center fs-1 fw-semibold">
         Contacto
@@ -316,12 +425,15 @@
         <article class="col-12 col-lg-6">
           <div class="container">
             <div class="row">
-              <div class="col-6 ">
+              <div class="col-6">
                 <label for="formGroupExampleInput" class="form-label m-1"
                   >Nombre</label
-                ><i class="fa-solid fa-circle-info" data-bs-toggle="tooltip"
-                data-bs-placement="top"
-                data-bs-title="Ingresa tu nombre aquí"></i>
+                ><i
+                  class="fa-solid fa-circle-info"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="top"
+                  data-bs-title="Ingresa tu nombre aquí"
+                ></i>
                 <input
                   type="text"
                   class="form-control mb-3"
@@ -331,17 +443,23 @@
               <div class="col-6">
                 <label for="formGroupExampleInput" class="form-label m-1"
                   >Email</label
-                ><i class="fa-solid fa-circle-info" data-bs-toggle="tooltip"
-                data-bs-placement="top"
-                data-bs-title="Ingresa tu Correo electrónico aquí"></i>
+                ><i
+                  class="fa-solid fa-circle-info"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="top"
+                  data-bs-title="Ingresa tu Correo electrónico aquí"
+                ></i>
                 <input type="text" class="form-control" aria-label="Email" />
               </div>
               <div class="col-12 mb-3">
                 <label for="formGroupExampleInput" class="form-label m-1"
                   >Mensaje</label
-                ><i class="fa-solid fa-circle-info" data-bs-toggle="tooltip"
-                data-bs-placement="top"
-                data-bs-title="Si quieres especificar algo, escribelo aquí"></i>
+                ><i
+                  class="fa-solid fa-circle-info"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="top"
+                  data-bs-title="Si quieres especificar algo, escribelo aquí"
+                ></i>
                 <textarea
                   class="form-control"
                   id="exampleFormControlTextarea1"
@@ -409,7 +527,11 @@
                         >
                           Cerrar
                         </button>
-                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">
+                        <button
+                          type="button"
+                          class="btn btn-primary"
+                          data-bs-dismiss="modal"
+                        >
                           Aceptar
                         </button>
                       </div>

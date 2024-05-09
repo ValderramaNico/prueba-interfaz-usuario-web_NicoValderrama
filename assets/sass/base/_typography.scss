@@ -4,9 +4,30 @@
     color: white;
 }
 
-.testimony__section {
+// Testimony section
+
+.testimony__section-container {
+    text-align: center;
     color: white;
 }
+
+.testimony__statements-description {
+    text-align: center;
+    font-style: italic;
+    font-size: 12px;
+    margin: 1.9rem;
+    text-wrap: balance;
+}
+
+.testimony__statements-sub-title {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+
+
+
+// footer
 
 .footer-section__text-icons {
     color: white;

@@ -1,0 +1,18 @@
+
+.testimony__section-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+}
+
+.testimony__statements {
+    display: flex;
+    flex-direction: row;
+}
+
+.testimony__statements-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
