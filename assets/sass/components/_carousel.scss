@@ -1,11 +1,11 @@
 #carouselExampleFade .carousel-item img {
-    height: 300px;
-    width: 100%;
-    object-fit: cover;
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+
+@media (min-width: 768px) {
+  #carouselExampleFade .carousel-item img {
+    height: 500px;
   }
-  
-  @media (min-width: 768px) {
-    #carouselExampleFade .carousel-item img {
-      height: 500px;
-    }
-  }
+}
