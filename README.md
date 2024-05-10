@@ -24,8 +24,8 @@
 - Se crea una sección `testimonios` con Css puro `sin bootstrap` y además su tuliza la metodolgía `BEM` para las clases.
 - Se crea una sección `contacto` con un `form`, un `checkbox input` y un `button`.
 
-=> La `checkbox` tiene un "input" a un lado con los 'terminos y condiciones' los cuales aparecen por medio de un `modal` integrado con bootstrap.
-=> El ``button` al presionarlo arroja un `alert` de bootstrap y Js.
+- => La `checkbox` tiene un "input" a un lado con los 'terminos y condiciones' los cuales aparecen por medio de un `modal` integrado con bootstrap.
+- => El ``button` al presionarlo arroja un `alert` de bootstrap y Js.
 
 Se integran iconos de `font awesome` por medio de un de un `<script>` en el `head`.
 
@@ -54,7 +54,7 @@ para los datos de contacto
 
 - Se aplican estilos para las la sección `testimonios`.
 
-`height` y `width` de las imagenes, centrado de texto, color, paddings.
+- => `height` y `width` de las imagenes, centrado de texto, color, paddings.
 
 ### NO se modifican los colores de bootstrap
 
